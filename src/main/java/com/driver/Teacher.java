@@ -9,15 +9,14 @@ public class Teacher {
     private int age;
 
    
-	public Teacher(String name, int age) {
-		//super();
-		this.name = name;
-		this.numberOfStudents = 0;
-		this.age = age;
-	}
-	 public Teacher() {
-
-	    }
+    public Teacher(String name, int age) {
+        this.name = name;
+        this.numberOfStudents = 0; // Initialize numberOfStudents to 0
+        this.age = age;
+    }
+//	 public Teacher() {
+//
+//	    }
 
 
 	public String getName() {
