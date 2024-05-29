@@ -8,16 +8,17 @@ public class Teacher {
 
     private int age;
 
-    public Teacher() {
-
-    }
-
+   
 	public Teacher(String name, int age) {
-		super();
+		//super();
 		this.name = name;
 		this.numberOfStudents = 0;
 		this.age = age;
 	}
+	 public Teacher() {
+
+	    }
+
 
 	public String getName() {
 		return name;
