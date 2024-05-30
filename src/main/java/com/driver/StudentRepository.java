@@ -25,7 +25,8 @@ public class StudentRepository {
 
     public void saveTeacher(Teacher teacher){
         // your code goes here
-    	teacherMap.put(teacher.getName(), teacher);
+    	Teacher savedTeacher = new Teacher(teacher.getName(), teacher.getAge());
+    	teacherMap.put(teacher.getName(), savedTeacher);
     }
 
     public void saveStudentTeacherPair(String student, String teacher){
